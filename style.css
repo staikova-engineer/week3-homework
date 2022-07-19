@@ -4,6 +4,12 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (min-width: 450px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
 body {
   margin: 60px auto;
   max-width: 800px;
