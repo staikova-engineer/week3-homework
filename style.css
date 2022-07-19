@@ -38,17 +38,6 @@ p {
   text-align: center;
 }
 
-@media (max-width: 450px) {
-  h1 {
-    font-size: 56px;
-    margin-top: 4px;
-  }
-
-  .image {
-    display: none;
-  }
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -72,6 +61,7 @@ p {
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 
 .homepage-link {
@@ -113,4 +103,31 @@ p {
 .project2-p,
 .project3-p {
   background: #fff;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 56px;
+    margin-top: 4px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .project-text {
+    width: 100%;
+    text-align: center !important;
+  }
+
+  .text-start {
+    text-align: center !important;
+    padding: 20px !important;
+  }
+
+  .project1-btn,
+  .project2-btn,
+  .project3-btn {
+    width: 80%;
+  }
 }
