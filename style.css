@@ -111,6 +111,21 @@ p {
     margin-top: 4px;
   }
 
+  h6 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .index-h3 {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .about-me {
+    margin: 10px auto;
+    max-width: 60%;
+  }
+
   .image {
     display: none;
   }
@@ -129,5 +144,9 @@ p {
   .project2-btn,
   .project3-btn {
     width: 80%;
+  }
+
+  .img-fluid {
+    margin-bottom: 15px;
   }
 }
